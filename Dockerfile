@@ -9,7 +9,7 @@ COPY package*.json ./
 COPY index.js .
 
 # Instalar dependencias
-RUN yar install
+RUN yarn install
 
 # Exponer el puerto de la aplicación
 EXPOSE 3000
